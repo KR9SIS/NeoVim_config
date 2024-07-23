@@ -48,6 +48,8 @@ return {
 
         "pylint",
         "eslint_d",
+
+        "debugpy",
       },
     })
   end,
