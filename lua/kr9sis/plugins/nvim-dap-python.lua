@@ -5,6 +5,6 @@ return {
   config = function()
     local dap_python = require("dap-python")
 
-    dap_python.setup("python3")
+    dap_python.setup("~/.virtualenv/debugpy/bin/python")
   end,
 }
