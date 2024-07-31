@@ -34,6 +34,7 @@ return {
         "lua_ls",
         "pyright",
         "clangd",
+        "gopls",
       },
     })
 
@@ -50,6 +51,8 @@ return {
         "eslint_d",
 
         "debugpy",
+
+        "gofumpt",
       },
     })
   end,

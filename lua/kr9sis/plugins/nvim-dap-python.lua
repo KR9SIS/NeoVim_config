@@ -1,5 +1,6 @@
 return {
   "mfussenegger/nvim-dap-python",
+  ft = "py",
   event = { "BufReadPre", "BufNewFile" },
   dependencies = { "mfussenegger/nvim-dap" },
   config = function()
