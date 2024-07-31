@@ -22,3 +22,9 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
+
+-- Disable arrow keys
+keymap.set("n", "<Left>", ":echo 'Use h'<CR>")
+keymap.set("n", "<Right>", ":echo 'Use l'<CR>")
+keymap.set("n", "<Up>", ":echo 'Use k'<CR>")
+keymap.set("n", "<Down>", ":echo 'Use j'<CR>")
