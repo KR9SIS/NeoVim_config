@@ -28,3 +28,6 @@ keymap.set("n", "<Left>", ":echo 'Use h'<CR>")
 keymap.set("n", "<Right>", ":echo 'Use l'<CR>")
 keymap.set("n", "<Up>", ":echo 'Use k'<CR>")
 keymap.set("n", "<Down>", ":echo 'Use j'<CR>")
+
+-- Allow ESC with ctr-j
+keymap.set({ "i", "v" }, "<C-j>", "<Esc>")
