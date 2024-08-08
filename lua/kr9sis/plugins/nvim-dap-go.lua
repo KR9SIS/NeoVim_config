@@ -2,6 +2,7 @@ return {
   "leoluz/nvim-dap-go",
   ft = "go",
   dependencies = "mfussenegger/nvim-dap",
+  event = { "BufReadPre", "BufNewFile", "VeryLazy" },
 
   opts = {
     -- Additional dap configurations can be added.
