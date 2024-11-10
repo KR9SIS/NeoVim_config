@@ -11,12 +11,15 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({ { import = "kr9sis.plugins" }, { import = "kr9sis.plugins.lsp" } }, {
-  checker = {
-    enabled = true,
-    notify = false,
-  },
-  change_detection = {
-    notify = false,
-  },
-})
+require("lazy").setup(
+  { { import = "kr9sis.plugins" }, { import = "kr9sis.plugins.lsp" }, { import = "kr9sis.plugins.dap" } },
+  {
+    checker = {
+      enabled = true,
+      notify = false,
+    },
+    change_detection = {
+      notify = false,
+    },
+  }
+)
