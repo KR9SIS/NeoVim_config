@@ -12,7 +12,7 @@ return {
         command = "codelldb",
         args = { "--port", "${port}" },
         env = {
-          LLDB_LIBRARY_PATH = "/usr/local/lib/lldb/lib/liblldb.so", -- Updated path
+          LLDB_LIBRARY_PATH = "/usr/local/lib/lldb/lib/liblldb.so", -- Updated path for lldb
           RUST_BACKTRACE = "1",
         },
       },
